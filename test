@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <style>
+    body {
+      background-image: url('https://i.redd.it/3nuwntfa9vm51.jpg');
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #0a0a09;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 17px;
+      color: #f3c22e;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #101141;
+    }
+
+    .glow {
+      font-size: 24px;
+      color: #f3c22e;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 25px #101141, 0 0 50px #101141, 0 0 45px #101141, 0 0 55px #101141, 0 0 65px #101141, 0 0 75px #101141, 0 0 95px #101141;
+      }
+
+      to {
+        text-shadow: 0 0 30px #e2073d, 0 0 55px #e2073d, 0 0 50px #e2073d, 0 0 60px #e2073d, 0 0 70px #e2073d, 0 0 80px #e2073d, 0 0 100px #e2073d;
+      }
+    }
+  </style>
+  <body>
+    <center>
+      <div class="glow">
+        <h1>
+          Why id Software is way cooler than Kadokawa Corporation
+        </h1>
+      </div>
+
+      <i><s>As written from the perspective from someone as if it were 2011</s></i>
+
+      <div class="navbar">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><b><</b></a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><b>The Main Comparison</b></a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><b>Corporate Comparisons</b></a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><b>Videogame Comparisons</b></a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><b>About Us</b></a>
+          </div>
+
+        <p>
+          Test
+        </p>
+      </center>
+      </body>
+    </html>
